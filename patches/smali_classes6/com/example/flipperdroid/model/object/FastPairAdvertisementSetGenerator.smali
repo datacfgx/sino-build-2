@@ -13,74 +13,60 @@
 
 # direct methods
 .method static constructor <clinit>()V
-    .locals 1
+    .locals 4
+
+    new-instance v0, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;
+    invoke-direct {v0}, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;-><init>()V
+    sput-object v0, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->INSTANCE:Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;
+
     const v0, 0xb5f
     new-array v0, v0, [I
-    sput-object v0, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->modelIds:[I
-    invoke-static {}, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->init0()V
-    invoke-static {}, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->init1()V
-    invoke-static {}, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->init2()V
-    invoke-static {}, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->init3()V
-    invoke-static {}, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->init4()V
-    invoke-static {}, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->init5()V
-    invoke-static {}, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->init6()V
-    invoke-static {}, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->init7()V
-    invoke-static {}, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->init8()V
-    invoke-static {}, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->init9()V
-    const/4 v0, 0x2
-    sput v0, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->setsPerModel:I
-    return-void
-.end method
-
-.method private static init0()V
-    .locals 3
-    sget-object v0, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->modelIds:[I
-    const/4 v1, 0x0
+    const/16 v1, 0x0
     const v2, 0x1c5
     aput v2, v0, v1
-    const/4 v1, 0x1
+    const/16 v1, 0x1
     const v2, 0xe98
     aput v2, v0, v1
-    const/4 v1, 0x2
+    const/16 v1, 0x2
     const v2, 0xf0c
     aput v2, v0, v1
-    const/4 v1, 0x3
+    const/16 v1, 0x3
     const v2, 0x2000
     aput v2, v0, v1
-    const/4 v1, 0x4
+    const/16 v1, 0x4
     const v2, 0x3001
     aput v2, v0, v1
-    const/4 v1, 0x5
+    const/16 v1, 0x5
     const v2, 0x3b41
     aput v2, v0, v1
-    const/4 v1, 0x6
+    const/16 v1, 0x6
     const v2, 0x5bc9
     aput v2, v0, v1
-    const/4 v1, 0x7
+    const/16 v1, 0x7
     const v2, 0x8263
     aput v2, v0, v1
-    const/4 v1, 0x8
+    const/16 v1, 0x8
     const v2, 0xa168
     aput v2, v0, v1
-    const/4 v1, 0x9
+    const/16 v1, 0x9
     const v2, 0xc95c
     aput v2, v0, v1
-    const/4 v1, 0xa
+    const/16 v1, 0xa
     const v2, 0xdae096
     aput v2, v0, v1
-    const/4 v1, 0xb
+    const/16 v1, 0xb
     const v2, 0xa83c10
     aput v2, v0, v1
-    const/4 v1, 0xc
+    const/16 v1, 0xc
     const v2, 0x9b7339
     aput v2, v0, v1
-    const/4 v1, 0xd
+    const/16 v1, 0xd
     const v2, 0x202b3d
     aput v2, v0, v1
-    const/4 v1, 0xe
+    const/16 v1, 0xe
     const v2, 0x70000
     aput v2, v0, v1
-    const/4 v1, 0xf
+    const/16 v1, 0xf
     const v2, 0x470000
     aput v2, v0, v1
     const/16 v1, 0x10
@@ -911,12 +897,6 @@
     const/16 v1, 0x123
     const v2, 0x989d0a
     aput v2, v0, v1
-    return-void
-.end method
-
-.method private static init1()V
-    .locals 3
-    sget-object v0, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->modelIds:[I
     const/16 v1, 0x124
     const v2, 0xe64cc6
     aput v2, v0, v1
@@ -1793,12 +1773,6 @@
     const/16 v1, 0x247
     const v2, 0x1fddc7
     aput v2, v0, v1
-    return-void
-.end method
-
-.method private static init2()V
-    .locals 3
-    sget-object v0, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->modelIds:[I
     const/16 v1, 0x248
     const v2, 0x200020
     aput v2, v0, v1
@@ -2675,12 +2649,6 @@
     const/16 v1, 0x36b
     const v2, 0x95e790
     aput v2, v0, v1
-    return-void
-.end method
-
-.method private static init3()V
-    .locals 3
-    sget-object v0, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->modelIds:[I
     const/16 v1, 0x36c
     const v2, 0x9630ab
     aput v2, v0, v1
@@ -3557,12 +3525,6 @@
     const/16 v1, 0x48f
     const v2, 0x1e5e76
     aput v2, v0, v1
-    return-void
-.end method
-
-.method private static init4()V
-    .locals 3
-    sget-object v0, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->modelIds:[I
     const/16 v1, 0x490
     const v2, 0x1e74fe
     aput v2, v0, v1
@@ -4439,12 +4401,6 @@
     const/16 v1, 0x5b3
     const v2, 0x46f0fd
     aput v2, v0, v1
-    return-void
-.end method
-
-.method private static init5()V
-    .locals 3
-    sget-object v0, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->modelIds:[I
     const/16 v1, 0x5b4
     const v2, 0x470e12
     aput v2, v0, v1
@@ -5321,12 +5277,6 @@
     const/16 v1, 0x6d7
     const v2, 0x6ed784
     aput v2, v0, v1
-    return-void
-.end method
-
-.method private static init6()V
-    .locals 3
-    sget-object v0, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->modelIds:[I
     const/16 v1, 0x6d8
     const v2, 0x6edc07
     aput v2, v0, v1
@@ -6203,12 +6153,6 @@
     const/16 v1, 0x7fb
     const v2, 0x92bceb
     aput v2, v0, v1
-    return-void
-.end method
-
-.method private static init7()V
-    .locals 3
-    sget-object v0, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->modelIds:[I
     const/16 v1, 0x7fc
     const v2, 0x92bdad
     aput v2, v0, v1
@@ -7085,12 +7029,6 @@
     const/16 v1, 0x91f
     const v2, 0xb9cebb
     aput v2, v0, v1
-    return-void
-.end method
-
-.method private static init8()V
-    .locals 3
-    sget-object v0, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->modelIds:[I
     const/16 v1, 0x920
     const v2, 0xba2b3d
     aput v2, v0, v1
@@ -7967,12 +7905,6 @@
     const/16 v1, 0xa43
     const v2, 0xe40e2d
     aput v2, v0, v1
-    return-void
-.end method
-
-.method private static init9()V
-    .locals 3
-    sget-object v0, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->modelIds:[I
     const/16 v1, 0xa44
     const v2, 0xe42439
     aput v2, v0, v1
@@ -8822,6 +8754,11 @@
     const/16 v1, 0xb5e
     const v2, 0x56488e
     aput v2, v0, v1
+    sput-object v0, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->modelIds:[I
+
+    const/4 v0, 0x2
+    sput v0, Lcom/example/flipperdroid/model/object/FastPairAdvertisementSetGenerator;->setsPerModel:I
+
     return-void
 .end method
 
